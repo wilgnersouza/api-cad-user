@@ -4,3 +4,9 @@ export interface IProductRequest {
   price: number;
   quantity: number;
 }
+
+export interface IUserRequest {
+  name: string;
+  email: string;
+  password: string;
+}
